@@ -41,3 +41,23 @@ $ rtl-gen --module adder --inputs 32,32 --output 33
 
 ## ライセンス
 MIT
+
+
+## Development Roadmap
+
+### Week 1: 環境構築 (July 2026)
+- VS Code + C言語開発環境セットアップ
+- GitHub Copilot インストール
+- リポジトリをクローン
+- Makefile テスト
+
+### Week 2-3: コア機能実装 (July 2026)
+- Issue #1: コマンドライン引数処理
+- Issue #2: Verilog RTL 生成
+- Issue #3: Testbench 生成
+
+### Week 4+: 完成・拡張 (August 2026+)
+- Issue #4: ドキュメント完成
+- テスト・デバッグ
+- GitHub Copilot で効率化
+
