@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
     config.output_width[0] = 32;
     
     // コマンドライン引数を解析（Issue #1）
-    // parse_arguments(argc, argv, &config);
+    parse_arguments(argc, argv, &config);
     
     // RTL ファイルを生成
     sprintf(rtl_filename, "%s.v", config.module_name);
